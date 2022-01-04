@@ -11,8 +11,7 @@ entries:
 
 path: /avro2parquet/conf/log4j.xml
 entry:
-<param name="file"
-			value="/REPLACE/avro2parquet/log/log.out" />
+<param name="file" value="/REPLACE/avro2parquet/log/log.out" />
 
 INPUT: /user/REPLACE/avro2parquet/avro/episodes.avro
 note: downloaded from https://github.com/apache/hive/blob/master/data/files/episodes.avro
@@ -24,4 +23,4 @@ note: downloaded from https://github.com/apache/hive/blob/master/data/files/epis
 # HOW TO EXECUTE
 ./avro2parquet.sh
 
-OUTPUT: user/<REPLACE>/avro2parquet/parquet/episodes.parquet
+OUTPUT: user/REPLACE/avro2parquet/parquet/episodes.parquet
