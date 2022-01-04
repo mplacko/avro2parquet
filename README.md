@@ -24,4 +24,4 @@ note: downloaded from https://github.com/apache/hive/blob/master/data/files/epis
 # HOW TO EXECUTE
 ./avro2parquet.sh
 
-OUTPUT: user/REPLACE/avro2parquet/parquet/episodes.parquet
+OUTPUT: user/<REPLACE>/avro2parquet/parquet/episodes.parquet
