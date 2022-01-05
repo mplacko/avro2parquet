@@ -16,7 +16,7 @@ Spark/Scala example for converting Avro file to Parquet file on HDFS
 
 - `INPUT`
 ```sh
-/user/<REPLACE>/avro2parquet/avro/episodes.avro
+HDFS: /user/<REPLACE>/avro2parquet/avro/episodes.avro
 note: downloaded from https://github.com/apache/hive/blob/master/data/files/episodes.avro
 ```
 
@@ -33,5 +33,5 @@ note: downloaded from https://github.com/apache/hive/blob/master/data/files/epis
 
 - `OUTPUT`
 ```sh
-user/<REPLACE>/avro2parquet/parquet/episodes.parquet
+HDFS: /user/<REPLACE>/avro2parquet/parquet/episodes.parquet
 ```
